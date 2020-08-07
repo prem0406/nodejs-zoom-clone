@@ -36,4 +36,4 @@ io.on('connection', socket => {
 
 
 
-server.listen(5000, () => console.log("Up and running...."));
+server.listen(process.env.PORT || 5000);
